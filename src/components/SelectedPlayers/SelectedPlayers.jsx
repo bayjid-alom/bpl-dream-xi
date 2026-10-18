@@ -1,9 +1,30 @@
 import React from 'react';
+import SelectedCard from '../UI/SelectedCard';
 
-const SelectedPlayers = () => {
+const SelectedPlayers = ({ selectedPlayers, setSelectedPlayers, coin, setCoin }) => {
+    // console.log(selectedPlayers);  // Array >> added after selected
+
+
     return (
         <div>
-            <h3 className='text-3xl  text-center text-red-500 font-black'>There is no players!</h3>
+
+            <div className='flex flex-col space-y-5'>
+
+                {
+                    selectedPlayers.map(selectedPlayer => {
+                        return <SelectedCard
+                            key={selectedPlayer.playerName}
+                            selectedPlayer={selectedPlayer}
+                            selectedPlayers={selectedPlayers}
+                            setSelectedPlayers={setSelectedPlayers}
+                            coin={coin}
+                            setCoin={setCoin}
+                        >
+                        </SelectedCard>
+                    })
+                }
+            </div>
+
 
         </div>
     );
