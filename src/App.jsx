@@ -1,16 +1,32 @@
 
+import { Suspense } from 'react'
 import './App.css'
 import Banner from './components/Banner/Banner'
 import Navbar from './components/Navbar/Navbar'
+import Players from './components/Players/Players'
+
+const fetchPlayers = async () => {
+  const res = await fetch('players-data.json')
+  return res.json()
+}
 
 function App() {
+  const playersPromise = fetchPlayers()
 
 
   return (
     <>
       <Navbar></Navbar>
       <Banner></Banner>
-      
+
+
+      <Suspense fallback={<div className='flex justify-center mx-auto text-black py-10'>
+        <span className="loading loading-dots loading-xl"></span>
+      </div>}>
+
+        <Players playersPromise={playersPromise} ></Players>
+      </Suspense>
+
     </>
   )
 }

@@ -5,7 +5,7 @@ import bgShadow from '../../assets/bg-shadow.png';
 
 const Banner = () => {
     return (
-        <section className="w-[96%] md:w-[85%]  mx-auto mt-5 mb-10">
+        <section className="w-[96%] md:w-[85%]  mx-auto mt-5 mb-10 mb:20">
             <div
                 className="relative overflow-hidden rounded-2xl border border-white/10
                 bg-[#111111] px-5 py-10 md:py-24 text-center"

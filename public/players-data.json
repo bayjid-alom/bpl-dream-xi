@@ -1,0 +1,92 @@
+[
+    {
+        "playerName": "Shakib Al Hasan",
+        "playerCountry": "Bangladesh",
+        "playerType": "All-Rounder",
+        "rating": 9.5,
+        "battingStyle": "Left-Handed",
+        "bowlingStyle": "Left-Arm Orthodox",
+        "price": 150000,
+        "playerImg": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_800,q_50/lsci/db/PICTURES/CMS/370100/370174.6.jpg"
+    },
+    {
+        "playerName": "Litton Das",
+        "playerCountry": "Bangladesh",
+        "playerType": "Wicket-Keeper",
+        "rating": 8.5,
+        "battingStyle": "Right-Handed",
+        "bowlingStyle": "Does Not Bowl",
+        "price": 85000,
+        "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTekhT4-ribKfji48bQF6GSc58G0wmUyqZ2ZjzYBCeFHM0smVt0z7ZS-QfO&s=10"
+    },
+    {
+        "playerName": "Tamim Iqbal",
+        "playerCountry": "Bangladesh",
+        "playerType": "Batter",
+        "rating": 8.7,
+        "battingStyle": "Left-Handed",
+        "bowlingStyle": "Right-Arm Off-Break",
+        "price": 90000,
+        "playerImg": "https://images.mykhel.com/img/2019/10/tamimiqbal-cropped_1d5fd43rf14s31qjfegrfd6pt2.jpg"
+    },
+    {
+        "playerName": "Mustafizur Rahman",
+        "playerCountry": "Bangladesh",
+        "playerType": "Bowler",
+        "rating": 8.8,
+        "battingStyle": "Left-Handed",
+        "bowlingStyle": "Left-Arm Fast-Medium",
+        "price": 100000,
+        "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRG4tIwcEm-pBDqDzKfsxrdzF6NwQnitlrJBTtGN3a87hT50z3zo2Wbfc&s=10https://i.ibb.co.com/whdNhsm1/virat.jpg"
+    },
+    {
+        "playerName": "Babar Azam",
+        "playerCountry": "Pakistan",
+        "playerType": "Batter",
+        "rating": 9.4,
+        "battingStyle": "Right-Handed",
+        "bowlingStyle": "Right-Arm Off-Break",
+        "price": 175000,
+        "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS648yxWREsP_mxgEKGEsJ6K3rVQ6nI9JTOEm4I6itpXBdnm7yuu9o9PaQ&s=10"
+    },
+    {
+        "playerName": "Rashid Khan",
+        "playerCountry": "Afghanistan",
+        "playerType": "Bowler",
+        "rating": 9.6,
+        "battingStyle": "Right-Handed",
+        "bowlingStyle": "Right-Arm Leg-Spin",
+        "price": 180000,
+        "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgjdtCLi2ibkgYLfOQt8JhYH2AngdRBUoL0LhJVN0h22PLfprPqrUuDh4P&s=10"
+    },
+    {
+        "playerName": "Jos Buttler",
+        "playerCountry": "England",
+        "playerType": "Wicket-Keeper",
+        "rating": 9.3,
+        "battingStyle": "Right-Handed",
+        "bowlingStyle": "Does Not Bowl",
+        "price": 160000,
+        "playerImg": "https://c.files.bbci.co.uk/3acd/live/f472d450-335c-11f1-8079-85791470d942.jpg"
+    },
+    {
+        "playerName": "Virat Kohli",
+        "playerCountry": "India",
+        "playerType": "Batsman",
+        "rating": 9.3,
+        "battingStyle": "Right-Handed",
+        "bowlingStyle": "Does Not Bowl",
+        "price": 170000,
+        "playerImg": "https://i.ibb.co.com/whdNhsm1/virat.jpg"
+    },
+    {
+        "playerName": "Andre Russell",
+        "playerCountry": "West Indies",
+        "playerType": "All-Rounder",
+        "rating": 9.4,
+        "battingStyle": "Right-Handed",
+        "bowlingStyle": "Right-Arm Fast",
+        "price": 170000,
+        "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT55XPb5aFZ4KnqO4mJQ06lUOGxeWXkOQn6JpzQ7Tf8VA0l44ixK198Dj7&s=10"
+    }
+]
