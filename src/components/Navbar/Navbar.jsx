@@ -12,7 +12,8 @@ const navLinks = [
     { id: 5, name: 'Standings', path: '/standings' },
 ];
 
-const Navbar = () => {
+const Navbar = ({ coin }) => {
+
     const links = navLinks.map(route => <Link key={route.id} route={route}></Link>)
     return (
 
@@ -37,7 +38,7 @@ const Navbar = () => {
                 {/* Coins - Right */}
                 <div className="flex-none">
                     <button className="btn btn-outline border-base-300 rounded-full px-4 gap-2">
-                        <span className="font-bold">0</span>
+                        <span className="font-bold">{coin}</span>
                         <span>Coins</span>
                         <img className="w-6 h-6 object-contain" src={dollerImage} alt="Coin" />
                     </button>
